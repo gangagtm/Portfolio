@@ -201,8 +201,6 @@ justify-content: center;
 }
 
 
-
-
 .log
 { 
   text-align: right;
@@ -211,14 +209,6 @@ justify-content: center;
 
 }
 
-.logi
-{ 
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: -120px;
-
-
-}
 
 .me{
   border-radius: 50%;
@@ -229,9 +219,6 @@ justify-content: center;
   opacity: 0.7
 }
 
-.logi a:hover{
-  opacity: 0.7
-}
 
 .fa-linkedin {
     padding: 15px;
@@ -285,20 +272,38 @@ justify-content: center;
   transition: .5s;
 }
 .fa::before{
-  transition: .5s;
-  transform: scale(.9);
+  transition: .2s;
+  transform: scale(0.9);
 }
-.fa:hover::before {
+.fa-linkedin:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #2874A6;
 }
-.fa:hover {
+.fa-linkedin:hover {
   color: #2874A6;
   box-shadow: 0 0 5px #2874A6;
-  text-shadow: 0 0 5px #2874A6;
+  text-shadow: 0 0 5px white;
 }
 
+.fa-github:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #455A64;
+}
+.fa-github:hover {
+  color: #455A64;
+  box-shadow: 0 0 5px #455A64;
+  text-shadow: 0 0 5px white;
+}
 
+.fa-facebook:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #0D47A1;
+}
+.fa-facebook:hover {
+  color: #0D47A1;
+  box-shadow: 0 0 5px #0D47A1;
+  text-shadow: 0 0 5px white;
+}
 
 label{
    font-family: 'Capriola', sans-serif;
@@ -306,8 +311,8 @@ label{
 
 
 .container{
-  margin-top: 200px;
-  margin-left: 50px;
+  margin-top: 100px;
+  margin-left: 40px;
   padding-left: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -320,7 +325,7 @@ form{
   padding: 2em;
   border: 1px solid #CCC;
   border-radius: 1em;
-  background: #226762;
+  
 }
 
 .flex-outer{
@@ -335,15 +340,15 @@ form{
 .sub{
   justify-content: center;
   padding: 7px 9px;
-  background: white;
   border-radius: 5px;
   margin-left: 170px;
   font-family:  'Capriola', sans-serif;
-
+  background-color: transparent;
 }
 
 .sub:hover{
-  background: #226762;
+  background: white;
+  color: black;
 }
 
 .cont{
@@ -354,6 +359,7 @@ form{
 
 ::placeholder {
   font-family: 'Capriola', sans-serif;
+  font-size: 15px;
   color: #2D6B86;
   opacity: 0.7; 
 }
@@ -387,16 +393,16 @@ textarea{
 .back{
 
   background-image: url("lapt.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 
 .work{
   background-image: url("lapt.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .work h2{
@@ -419,59 +425,46 @@ textarea{
   color: aliceblue;
 }
 
-.wrapper{
-  width: 1170px;
-  margin: 5% auto;
-}
-
-.workk{
-  position: relative;
-  width: 600px;
-  height: 320px;
-  padding: 1px 15px;
-  float: left;
-  margin: 50px 275px ;
-  text-align: left;
-}
-
-
-.wor{
-  position: relative;
-  width: 600px;
-  height: 320px;
-  padding: 1px 15px;
-  float: left;
-  margin: 0 275px;
-  text-align: left;
-}
-
 .skills{
   border: 2px solid #D0D0D0;
   border-radius: 5px;
-  background-color: #D4967D;
+  width: 300px;
+  margin-left: 200px;
+  padding: 20px 20px;
   
 }
 
 .projects{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  background-color: #2A657E;
-  
+  width: 600px;
+  margin-top: -300px;
+  margin-left: 700px;
+  padding: 20px 20px;
 }
 
 .certs{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  background-color: #346A9D;
+  width: 500px;
+  margin-top: 100px;
+  padding: 20px 20px;
+  margin-left: 200px;
 }
 
 .exp{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  background-color: #D4967D;
+  width: 1000px;
+  padding: 20px 20px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 
-
+.abtme{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
 
 @media only screen and (min-width: 768px) {
 
