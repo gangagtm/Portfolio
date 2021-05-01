@@ -312,8 +312,8 @@ label{
 
 .container{
   margin-top: 100px;
-  margin-left: 40px;
-  padding-left: 20px;
+  margin-left: 5px;
+  padding-left: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
  
@@ -321,10 +321,11 @@ label{
 
 form{
   margin: 0 420px;
-  width: 500px;
+  width: 600px;
   padding: 2em;
   border: 1px solid #CCC;
   border-radius: 1em;
+  background-color: rgba(0,0,0,0.6);
   
 }
 
@@ -334,20 +335,20 @@ form{
 
 .flex-outer li{
   font-size: 20px;
-   color: white;
+  color: white;
  }
 
 .sub{
   justify-content: center;
   padding: 7px 9px;
   border-radius: 5px;
-  margin-left: 170px;
+  margin-left: 220px;
   font-family:  'Capriola', sans-serif;
-  background-color: transparent;
+  background-color: white;
 }
 
 .sub:hover{
-  background: white;
+  background: transparent;
   color: black;
 }
 
@@ -372,7 +373,7 @@ form{
 
 #email{
   padding: 5px 5px;
-  margin: 10px 31px;
+  margin: 10px 27px;
 }
 
 #phone{
@@ -395,7 +396,7 @@ textarea{
   background-image: url("lapt.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  
 }
 
 
@@ -426,9 +427,9 @@ textarea{
 }
 
 .skills{
-  border: 2px solid #D0D0D0;
+  border: 1px solid #D0D0D0;
   border-radius: 5px;
-  width: 300px;
+  width: 1000px;
   margin-left: 200px;
   padding: 20px 20px;
   
@@ -437,19 +438,21 @@ textarea{
 .projects{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  width: 600px;
-  margin-top: -300px;
-  margin-left: 700px;
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: 200px;
   padding: 20px 20px;
+  background-color: rgba(0,0,0,0.6);
 }
 
 .certs{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  width: 500px;
-  margin-top: 100px;
+  width: 1000px;
+  margin-top: 50px;
   padding: 20px 20px;
   margin-left: 200px;
+  background-color: rgba(0,0,0,0.6);
 }
 
 .exp{
@@ -458,28 +461,42 @@ textarea{
   width: 1000px;
   padding: 20px 20px;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 .abtme{
   color: white;
   font-family: 'Quicksand', sans-serif;
+  border: 1px solid gray;
+  padding: 20px 20px;
+  width: 700px;
+  height: 250px;
+  margin-left: 350px;
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0.4);
+ 
+}
+
+.mypic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
 
     .naam{
-        padding-right: 80px;
-        padding-top: 50px;
-        font-size: 60px;
+      padding-right: 80px;
+      padding-top: 50px;
+      font-size: 60px;
         
-        }
+      }
         
     .namee{
-        padding-right: 90px ;
-        padding-top: 20px;
-        font-size: 50px;
-         }
+      padding-right: 90px ;
+      padding-top: 20px;
+      font-size: 50px;
+      }
 
     .menu{
     font-size: 50px;
