@@ -608,11 +608,10 @@ textarea{
 
 .mypic{
   border: 2px solid gray;
-  border-radius: 70px 70px 70px 70px;
   margin-left: 250px;
   margin-top: 20px;
   width: 200px;
-  height: 300px;
+  height: 100px;
 }
 }
 
@@ -687,6 +686,7 @@ textarea{
   align-content: center;
   margin-left: 300px;
   margin-bottom: 10px;
+  margin-top: 5px;
   /* width: 700px; */
   /* height: 250px; */
   /* margin-left: 25%; */
@@ -706,11 +706,11 @@ textarea{
 
 .mypic{
   border: 2px solid gray;
-  border-radius: 70px 70px 70px 70px;
-  margin-left: 600px;
+  margin-left: 550px;
   margin-bottom: 10px;
-  width: 200px;
+  width: 300px;
   height: 300px;
+  border-radius: 50%;
 }
 
 
