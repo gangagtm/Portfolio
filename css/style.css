@@ -130,13 +130,10 @@ justify-content: center;
 
 .menu-list {
     font-weight: 900;
-    display: flex;
+    display: block;
     align-items: center;
 }
 
-.menu-list:hover {
-     background-color: black;
-}
 
 .menu-wrap .menu > div {
   /* background-color: black; */
@@ -152,6 +149,7 @@ justify-content: center;
   justify-content: center;
   transform: scale(0); 
   transition: all 0.4s ease;
+  border-radius: 50%;
 }
 
 .menu-wrap .menu > div > div {
@@ -526,9 +524,9 @@ textarea{
   /* background-color: rgba(0,0,0,0.4); */
   background-color: rgba(0,0,0,0.8);
 }
+
 .mypic{
   border: 2px solid gray;
-  border-radius: 70px 70px 70px 70px;
   margin-left: 170px;
   margin-bottom: 10px;
   width: 200px;
@@ -659,6 +657,7 @@ textarea{
     .social{
     padding: 80px 80px;
     margin-left: 450px;
+    margin-bottom: 0;
 
     }
 
@@ -699,9 +698,8 @@ textarea{
 .me{
       width: 70px;
       height:70px;
-      position: fixed;
-      margin-left: -60px;
       border-radius: 50%;
+     
 }
 
     
