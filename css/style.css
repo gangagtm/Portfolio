@@ -129,10 +129,10 @@ justify-content: center;
 }
 
 .menu-list {
-    font-weight: 900;
-    display: block;
-    align-items: center;
+  display: block;
+  align-items: center;
 }
+
 
 
 .menu-wrap .menu > div {
@@ -162,24 +162,21 @@ justify-content: center;
 
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
-  color: white;
-  font-size: 40px;
   padding: 40px;
   font-family: 'Quicksand', sans-serif;
   
 }
 
-.menu-wrap .menu > div > div > ul > li:hover {
-  color: white;
-}
-
-
 .menu-wrap .menu > div > div > ul > li > a {
-  color: inherit;
+  color: white;
   text-decoration: none;
   transition: color 0.4s ease;
+  font-size: 30px;
   }
 
+.menu-wrap .menu > div > div > ul > li > a:hover {
+  color: #42a4c5;
+}
 
 .fa:hover {opacity: 0.7
 }
@@ -274,9 +271,9 @@ justify-content: center;
   }
 
 .social{
-    padding: 50px 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+  padding: 50px 40px;
+  margin-left: 200px;
+  margin-right: 100px;
 
 }
 
@@ -324,17 +321,17 @@ label{
 
 
 .container{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 5px;
   padding-left: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 130px;
  
 }
 
 form{
-  margin: 0 420px;
-  width: 600px;
+  width: 450px;
   padding: 2em;
   border: 1px solid #CCC;
   border-radius: 1em;
@@ -347,7 +344,7 @@ form{
 }
 
 .flex-outer li{
-  font-size: 20px;
+  font-size: 15px;
   color: white;
  }
 
@@ -355,14 +352,14 @@ form{
   justify-content: center;
   padding: 7px 9px;
   border-radius: 5px;
-  margin-left: 220px;
+  margin-left: 150px;
   font-family:  'Quicksand', sans-serif;
   background-color: white;
 }
 
 .sub:hover{
   background: transparent;
-  color: black;
+  color: white;
 }
 
 .cont{
@@ -381,17 +378,17 @@ form{
 
 #first-name{
   padding: 5px 5px;
-  margin: 10px 25px;
+  margin: 10px 20px;
 }
 
 #email{
   padding: 5px 5px;
-  margin: 10px 27px;
+  margin: 10px 20px;
 }
 
 #phone{
   padding: 5px 5px;
-  margin: 10px 23px;
+  margin: 10px 20px;
 }
 
 #message{
@@ -419,12 +416,12 @@ textarea{
 }
 
 .workk-me{
-  width: 70px;
-  height:70px;
+  width: 60px;
+  height:60px;
   position: fixed;
   margin-left: -60px;
   border-radius: 50%;
-  margin-top: -55px;
+  margin-top: -15px;
 
 }
 .work h2{
@@ -450,9 +447,10 @@ textarea{
 .skills{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  width: 400px;
+  width: 370px;
   margin-left: 50px;
   padding: 20px 20px;
+  margin-top: 20px;
   
 }
 
@@ -479,10 +477,11 @@ textarea{
 .exp h5{
   font-size: 15px;
 }
+
 .projects{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  width: 400px;
+  width: 370px;
   margin-top: 50px;
   margin-left: 50px;
   padding: 20px 20px;
@@ -491,7 +490,7 @@ textarea{
 .certs{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  width: 400px;
+  width: 370px;
   margin-top: 50px;
   padding: 20px 20px;
   margin-left: 50px;
@@ -500,10 +499,11 @@ textarea{
 .exp{
   border: 1px solid #D0D0D0;
   border-radius: 5px;
-  width: 400px;
+  width: 370px;
   padding: 20px 20px;
   margin-top: 50px;
   margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 .abtme{
@@ -529,8 +529,9 @@ textarea{
   border: 2px solid gray;
   margin-left: 170px;
   margin-bottom: 10px;
-  width: 200px;
+  width: 250px;
   height: 300px;
+  border-radius: 50%;
 }
 
 
@@ -539,26 +540,21 @@ textarea{
     height:50px;
     border-radius: 50%;
 }
+.cont-me{
+  width: 60px;
+  height:60px;
+  border-radius:50%;
+}
 
     
- 
-/*.mypic{
-	flex-shrink: 0;
-	margin: 20px;
-	height: calc(150px + 6vw);
-	width: calc(150px + 6vw);
-	border: calc(8px + 0.2vw) solid transparent;
-	background-origin: border-box;
-	background-clip: content-box, border-box;
-	background-size: cover;
-	box-sizing: border-box;
-	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-	background-image: url("me1.jpeg"), linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
-    margin-left: 42%;
-}*/
 
 @media only screen and (min-width: 768px) {
+
+
+    .menu-wrap .menu > div > div > ul > li > a {
+  font-size: 35px;
+  }
+ 
 
     .naam{
       padding-right: 80px;
@@ -594,10 +590,10 @@ textarea{
   /* border: 1px solid gray; */
   padding: 40px 40px;
   width: 70vw;
-  height: 40vw; /* 30% of width */
+  height: 25vw; /* 30% of width */
   margin-top:100px;
-  margin-left:100px;
-  margin-bottom: 210px;
+  margin-left:150px;
+  margin-bottom: 100px;
   /* width: 700px; */
   /* height: 250px; */
   /* margin-left: 25%; */
@@ -608,16 +604,107 @@ textarea{
 
 .mypic{
   border: 2px solid gray;
-  margin-left: 250px;
+  margin-left: 300px;
   margin-top: 20px;
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
+
+.workk-me{
+  width: 60px;
+  height:60px;
+
+}
+
+.skills{
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  width: 600px;
+  margin-left: 200px;
+  padding: 20px 20px;
+  margin-top: 60px;
+  
+}
+
+.projects{
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 200px;
+  padding: 20px 20px;
+}
+
+.certs{
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  width: 600px;
+  margin-top: 50px;
+  padding: 20px 20px;
+  margin-left: 200px;
+}
+
+.exp{
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  width: 600px;
+  padding: 20px 20px;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.skills ul li {
+  font-size: 18px;
+}
+
+.projects ul li {
+  font-size: 18px;
+}
+
+.certs ul li {
+  font-size: 18px;
+}
+
+.certs h4{
+  font-size: 20px;
+}
+
+.exp ul li {
+  font-size: 18px;
+}
+
+.exp h5{
+  font-size: 20px;
+}
+
+.cont-me{
+  width: 70px;
+  height:70px;
+}
+
+.container{
+  margin-top: 50px;
+  margin-left: 200px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 130px;
+ 
+}
+
+
 }
 
 @media only screen and (min-width: 1000px) {
 
-   
+
+   .menu-wrap .menu > div > div > ul > li > a {
+  font-size: 35px;
+  }
+ 
+
     .textt{
         margin-top: 10px;
         margin-left: 1px;
@@ -671,9 +758,7 @@ textarea{
     .fa{
       font-size: 40px;
     }
-  
 
-  
 
   .abtme{
   color: white;
@@ -693,23 +778,23 @@ textarea{
   /* margin-top: 5%; */
   /* background-color: rgba(0,0,0,0.4); */
   background-color: rgba(0,0,0,0.8);
-}
+  }
 
-.me{
+  .me{
       width: 70px;
       height:70px;
       border-radius: 50%;
      
-}
+  }
 
     
 
-.mypic{
+  .mypic{
   border: 2px solid gray;
   margin-left: 550px;
   margin-bottom: 10px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 400px;
   border-radius: 50%;
 }
 
@@ -792,7 +877,60 @@ textarea{
   position: fixed;
   margin-left: -60px;
   border-radius: 50%;
-  margin-top: -90px;
+  margin-top: -145px;
 }
 
+.container{
+  margin-top: 150px;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+}
+
+form{
+  margin: 0 420px;
+  width: 500px;
+  padding: 2em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: rgba(0,0,0,0.6);
+  
+}
+
+.sub:hover{
+  background: transparent;
+  color: black;
+}
+
+#first-name{
+  padding: 5px 5px;
+  margin: 10px 25px;
+}
+
+ #email{
+  padding: 5px 5px;
+  margin: 10px 27px;
+}
+
+#phone{
+  padding: 5px 5px;
+  margin: 10px 23px;
+}
+
+#message{
+  padding: 5px 5px;
+  margin: 10px 5px;
+}
+
+ .flex-outer li{
+  font-size: 17px;
+
+ }
+
+  .sub{
+ margin-left: 200px;
+
+}
 }

@@ -37,27 +37,27 @@
   </div>
   <div>
     <div class="container">
-      <form>
+      <form action="cform.php" method="POST">
       <h2 class="cont">Get In Touch</h2>
       <ul class="flex-outer">
         <li>
           <label for="fname">Name</label>
-          <input type="text" id="first-name" size="30">
+          <input type="text" id="first-name" name="name" size="30">
         </li>
         <li>
           <label for="email">Email</label>
-          <input type="email" id="email" size="30">
+          <input type="email" id="email" name="email" size="30">
         </li>
         <li>
           <label for="phone">Phone</label>
-          <input type="tel" id="phone" size="30">
+          <input type="tel" id="phone" name="phone" size="30">
         </li>
         <li>
           <label for="message">Message</label>
-          <textarea rows="9" cols="29" id="message" placeholder="Enter your message here" ></textarea>
+          <textarea rows="9" cols="29" id="message" name="message" placeholder="Enter your message here" ></textarea>
         </li>
       </ul>
-      <button class="sub">Submit</button>
+      <button class="sub" name="submit">Submit</button>
       </form>
     </div>
   </div>
